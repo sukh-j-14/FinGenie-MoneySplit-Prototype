@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.fingenie.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.fingenie.ui.auth.RegisterFragment"
+        android:label="Register">
+        <action
+            android:id="@+id/action_registerFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.fingenie.ui.dashboard.DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_groupsFragment"
+            app:destination="@id/groupsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_expensesFragment"
+            app:destination="@id/expensesFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.fingenie.ui.groups.GroupsFragment"
+        android:label="Groups">
+        <action
+            android:id="@+id/action_groupsFragment_to_addGroupFragment"
+            app:destination="@id/addGroupFragment" />
+        <action
+            android:id="@+id/action_groupsFragment_to_manageMembersFragment"
+            app:destination="@id/manageMembersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="com.fingenie.ui.groups.AddGroupFragment"
+        android:label="Add Group" />
+
+    <fragment
+        android:id="@+id/manageMembersFragment"
+        android:name="com.fingenie.ui.groups.ManageMembersFragment"
+        android:label="Manage Members">
+        <argument
+            android:name="groupId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.fingenie.ui.expenses.ExpensesFragment"
+        android:label="Expenses">
+        <argument
+            android:name="groupId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_expensesFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_expensesFragment_to_expenseDetailsFragment"
+            app:destination="@id/expenseDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.fingenie.ui.expenses.AddExpenseFragment"
+        android:label="Add Expense">
+        <argument
+            android:name="groupId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseDetailsFragment"
+        android:name="com.fingenie.ui.expenses.ExpenseDetailsFragment"
+        android:label="Expense Details">
+        <argument
+            android:name="expenseId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.fingenie.ui.profile.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.fingenie.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+</navigation> 

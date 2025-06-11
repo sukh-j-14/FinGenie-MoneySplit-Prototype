@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_add_expense.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_add_expense.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_add.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_profile.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_register.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_login.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_expense_split.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_expense_split.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_manage_members.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_manage_members.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_expenses.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_expenses.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.fingenie.app-main-55:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_group.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_group.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_member_selection.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_member_selection.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_settings.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_check.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_expense_details.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_expense_details.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_group.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_group.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_current_member.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_current_member.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/navigation_nav_graph.xml.flat",
+        "source": "com.fingenie.app-main-55:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_add_group.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_add_group.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/raw_firestore.rules.flat",
+        "source": "com.fingenie.app-main-55:/raw/firestore.rules"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_groups.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_expense.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_expense.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.fingenie.app-main-55:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_person.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_dashboard.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_profile.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fingenie.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_fragment_settings.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_dialog_create_group.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/dialog_create_group.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.fingenie.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.fingenie.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/drawable_ic_dashboard.xml.flat",
+        "source": "com.fingenie.app-main-55:/drawable/ic_dashboard.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "com.fingenie.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.fingenie.app-merged_res-53:/layout_item_add_member.xml.flat",
+        "source": "com.fingenie.app-main-55:/layout/item_add_member.xml"
+    }
+]
