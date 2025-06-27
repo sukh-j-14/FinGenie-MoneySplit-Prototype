@@ -73,8 +73,4 @@ See `app/build.gradle` for the full list.
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
-
-## License
-
-*(Specify your license here, e.g., MIT, Apache 2.0, etc.)* 
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes. 
