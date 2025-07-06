@@ -11,9 +11,7 @@ Fingenie is an Android application for tracking and managing shared expenses wit
 - **Profile & Settings:** Manage your profile, preferences, and app settings.
 - **Firebase Integration:** Uses Firebase Firestore for real-time data storage and synchronization.
 
-## Screenshots
 
-*(Add screenshots of your app here)*
 
 ## Getting Started
 
